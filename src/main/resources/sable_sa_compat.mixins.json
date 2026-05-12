@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.wachi.sable_sa_compat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "we_companion.refmap.json",
+  "mixins": [
+    "create_sa.block_picker.BlockPickerRightClickMixin",
+    "create_sa.block_picker.BlockPickerTickMixin",
+    "create_sa.block_picker.LiftedBlockEntityMixin",
+    "create_sa.grapplin.GrapplinTickMixin",
+    "create_sa.jetpack.AndesiteJetpackTickMixin",
+    "create_sa.jetpack.BrassJetpackTickMixin",
+    "create_sa.jetpack.CopperJetpackTickMixin",
+    "create_sa.grapplin.GrapplinItemMixin",
+    "create_sa.jetpack.NetheriteJetpackTickMixin",
+    "create_sa.jetpack.entity.StoreLastJetPackResultInEntity",
+    "create_sa.tank.SmallFillingTankMixing",
+    "create_sa.tank.SmallFuelingTankMixing"
+  ],
+  "client": [
+    "create_sa.grapplin.GrapplinChainRendererMixin",
+    "create_sa.client.DisableAndesiteExoskeletonArm",
+    "create_sa.client.DisableBrassExoskeletonArm",
+    "create_sa.client.DisableCopperExoskeletonArm",
+    "create_sa.client.DisableNetheriteJetPackArm"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
