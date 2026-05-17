@@ -61,7 +61,7 @@ public class GrapplinTickMixin {
             at = @At(value = "INVOKE", target = "Lnet/mcreator/createstuffadditions/CreateSaMod;queueServerWork(ILjava/lang/Runnable;)V", remap = false)
     )
     private static void hookToPos(int tick, Runnable action){
-        //disable this shit
+        //disable this
     }
 
     //the hookToPos mixin changes EVERY mention of the hooked pos to the one projected out of the sublevel. But the level#isemptyblock requires

@@ -14,9 +14,7 @@
     "create_sa.jetpack.CopperJetpackTickMixin",
     "create_sa.grapplin.GrapplinItemMixin",
     "create_sa.jetpack.NetheriteJetpackTickMixin",
-    "create_sa.jetpack.entity.StoreLastJetPackResultInEntity",
-    "create_sa.tank.SmallFillingTankMixing",
-    "create_sa.tank.SmallFuelingTankMixing"
+    "create_sa.jetpack.entity.StoreLastJetPackResultInEntity"
   ],
   "client": [
     "create_sa.grapplin.GrapplinChainRendererMixin",
