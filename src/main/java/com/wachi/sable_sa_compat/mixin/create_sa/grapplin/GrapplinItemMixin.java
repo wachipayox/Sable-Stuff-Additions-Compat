@@ -23,7 +23,6 @@ public class GrapplinItemMixin {
     public void afterTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected, CallbackInfo ci){
         if(!selected && entity instanceof LivingEntity lEnt) {
             if(lEnt.getOffhandItem().equals(itemstack)) {
-                SableSaCompat.LOGGER.info(lEnt.toString());
                 GrapplinWhiskItemInHandTickProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
             } else if (
                     itemstack.getOrDefault(
